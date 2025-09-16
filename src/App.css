@@ -41,6 +41,23 @@ body{
   border-radius: 0.5rem;
   margin-right: 1rem;
 }
+.card-start{
+  background-color: #00000060;
+  display: flex;
+  margin: 3rem 30rem 3rem 30rem;
+  border: 100px solid transparent;
+  border-radius: 1rem;
+  color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+.jogar{
+  color: #579644;
+  font-weight: 800;
+
+}
 li:hover{
   text-decoration: underline;
   cursor: pointer;
@@ -49,14 +66,61 @@ li:hover{
 .espacamento{
   padding: 0 30rem 0 30rem;
 }
-.card1{
+.card-quiz{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #0000006b;
-  padding: 3rem 10rem 3rem 10rem;
+  padding: 3rem 0 3rem 0;
+  margin: 0 30rem 0 30rem;
   border: 1px solid transparent;
   border-radius: 2rem;
   color: #ffffff;
+}
+.resp{
+  margin-top: 1.4rem;
+  background-color: #0f3603;
+  border: 0.6rem solid #0f3603;
+  color: #ffffff;
+  border-radius: 0.4rem;
+}
+input{
+  background-color: #000000;
+  color: #ffffff;
+  border: 0.4rem solid #000000;
+  border-radius: 0.4rem;
+}
+input:focus{
+  background-color: #000000;
+  color: #ffffff;
+  border: 0.4rem solid #000000;
+  border-radius: 0.4rem;
+}
+select{
+  background-color: #000000;
+  color: #ffffff;
+  border: 0.4rem solid #000000;
+  border-radius: 0.4rem;
+}
+select:focus{
+  background-color: #000000;
+  color: #ffffff;
+  border: 0.4rem solid #000000;
+  border-radius: 0.4rem;
+}
+
+.result-image{
+  height: 15rem;
+}
+.tent{
+  margin-top: 1.4rem;
+  background-color: #0f3603;
+  border: 0.6rem solid #0f3603;
+  color: #ffffff;
+  border-radius: 0.4rem;
+}
+
+.persona{
+  height: 20rem;
 }
